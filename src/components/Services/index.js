@@ -63,6 +63,7 @@ export default function Services() {
   const drawer = (
     <div>
       <div className={classes.toolbar} />
+      <label style={{ fontSize: '2rem' ,color:'Gray'} }>Services</label> 
       <Divider />
       <List>
         {(loading || !services)
